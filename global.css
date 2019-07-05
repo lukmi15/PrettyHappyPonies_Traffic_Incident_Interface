@@ -1,0 +1,65 @@
+form
+{
+	height: 100%;
+	font-weight: bold;
+}
+
+table.frame
+{
+	width: 100%;
+	height: 100%;
+}
+
+.frame .content
+{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo
+{
+	height: 80px;
+}
+
+#header
+{
+	height: 80px;
+	background: black;
+	color: white;
+	vertical-align: center;
+}
+
+#main
+{
+	height: auto;
+	background: #037d88;
+}
+
+#map
+{
+	height: auto;
+	padding: auto;
+	vertical-align: center;
+	text-align: center;
+	background-image: url("loading.gif");
+	background-position: center;
+	background-size: 500px 285px;
+	background-repeat: no-repeat;
+}
+
+#gmap
+{
+	height: 100%;
+	width: 100%;
+	min-height: 250px;
+}
+
+#filter
+{
+	height: 30%;
+	vertical-align: top;
+}
